@@ -176,7 +176,7 @@ def main():
 
     # Khởi tạo pacman và ghost
     pacman = Pacman(2, 2)
-    ghosts = [Ghost(ROWS // 2, COLS // 2), Ghost(ROWS // 2, COLS // 2)]
+    ghosts = [Ghost(ROWS // 2, COLS // 2)]
 
     running = True
     while running:
